@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.notice{
+    width: 600px;
+    height: 190px;
+    background-color: aquamarine;
+}
+
+.title{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 900;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.noticearea{
+    width: 600px;
+    height: 160px;
+    background-color: aqua;
+}
+
+.box{
+    width: 100%;
+    height: 40px;
+    background-color: aquamarine;
+    border-bottom: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box:nth-child(1){
+    border-top: 1px black solid;
+}
+
+.text{
+    line-height: 40px;
+    padding-left: 10px;
+    font-weight: 900;
+}
+
+.day{
+    line-height: 40px;
+    padding-right: 10px;
+    font-weight: 900;
+}
